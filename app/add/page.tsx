@@ -127,8 +127,7 @@ export default function AddStudent() {
           <button 
             type="button" 
             onClick={() => router.push("/")}
-            className="flex-1 bg-[#CC0000] text-[#000000] font-bold py-4 rounded-2xl hover:bg-[#CC0033] transition-all border border-[#c4b5fd]"
-          >
+            className="bg-[#CC0000] text-[#000000] font-bold py-3 px-6 rounded-2xl hover:bg-[#CC0033] hover:text-yellow-300 transition-all border border-[#c4b5fd] hover:scale-105 transform shadow-sm">
             ยกเลิก
           </button>
           <button 
