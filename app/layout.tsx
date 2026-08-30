@@ -4,6 +4,9 @@ import "./globals.css";
 import Link from "next/link";
 import { ThemeProvider } from "./context/ThemeContext";
 import ThemeToggle from "./components/ThemeToggle";
+import logo from "../img/logo.png"; // หรือ "@/img/logo.png" ตามตำแหน่งจริงของโฟลเดอร์
+import Image from "next/image";
+
 
 const notoSansThai = Noto_Sans_Thai({ subsets: ["thai"] });
 
@@ -17,7 +20,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {/* Navbar & Header */}
           <header className="sticky top-0 z-50 bg-white from-[#8b5cf6] to-[#7c3aed] text-black shadow-xl">
             <div className="max-w-5xl mx-auto p-4 flex flex-col md:flex-row justify-between items-center gap-4">
-              <image src="/logo.png" alt="Student Manager Logo" width={50} height={50} className="rounded-full" />
+              <Image
+                src={logo}
+                alt="Logo"
+                className="h-7 w-auto object-contain inline-block"
+              />
+
               <h1 className="text-2xl font-bold tracking-tight">Student Manager</h1>
               <div className="flex items-center gap-4">
                 <nav className="flex gap-4 flex-wrap items-center">
