@@ -15,8 +15,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${notoSansThai.className} bg-[#f5f0ff] flex flex-col min-h-screen`}>
         <ThemeProvider>
           {/* Navbar & Header */}
-          <header className="sticky top-0 z-50 bg-gradient-to-r from-[#8b5cf6] to-[#7c3aed] text-white shadow-xl">
+          <header className="sticky top-0 z-50 bg-white from-[#8b5cf6] to-[#7c3aed] text-white shadow-xl">
             <div className="max-w-5xl mx-auto p-4 flex flex-col md:flex-row justify-between items-center gap-4">
+              <img src="/student-icon.png" alt="Student Manager" className="h-10 sm:h-12 w-auto object-contain"></img>
               <h1 className="text-2xl font-bold tracking-tight">Student Manager</h1>
               <div className="flex items-center gap-4">
                 <nav className="flex gap-4 flex-wrap items-center">
@@ -35,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </main>
 
           {/* Footer */}
-          <footer className="bg-[#7c3aed] text-white text-center p-4 mt-auto text-sm">
+          <footer className="bg-white text-white text-center p-4 mt-auto text-sm">
             <p>&copy; 2026 Student Manager Project. All rights reserved.</p>
           </footer>
         </ThemeProvider>
