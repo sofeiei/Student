@@ -24,7 +24,7 @@ export default function Home() {
           </button>
         </Link>
         <Link href="/students">
-          <button className="bg-[#700d2b] text-[#000000] font-semibold px-6 py-2.5 rounded-full hover:bg-[#590a22] hover:text-yellow-300 transition-all border border-[#c4b5fd] hover:scale-105 transform shadow-sm text-center">
+          <button className="bg-[#700d2b] text-[#000000] font-semibold px-6 py-2.5 rounded-full hover:bg-[#590a22] inline-block hover:text-yellow-300 transition-all border border-[#c4b5fd] hover:scale-105 transform shadow-sm text-center">
             รายชื่อทั้งหมด
           </button>
         </Link>
