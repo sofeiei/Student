@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {/* Navbar & Header */}
           <header className="sticky top-0 z-50 bg-white from-[#8b5cf6] to-[#7c3aed] text-black shadow-xl">
             <div className="max-w-5xl mx-auto p-4 flex flex-col md:flex-row justify-between items-center gap-4">
-              <img src="/img/logo.png" alt="Student Manager" className="h-10 sm:h-12 w-auto object-contain"></img>
+              <image src="/logo.png" alt="Student Manager Logo" width={50} height={50} className="rounded-full" />
               <h1 className="text-2xl font-bold tracking-tight">Student Manager</h1>
               <div className="flex items-center gap-4">
                 <nav className="flex gap-4 flex-wrap items-center">
