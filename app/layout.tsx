@@ -31,9 +31,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </Link>
 
                 <nav className="flex items-center gap-6 font-medium text-sm text-zinc-700">
-                  <Link href="/" className="hover:text-[#000000] transition-colors">Home</Link>
-                  <Link href="/dashboard" className="hover:text-[#000000] transition-colors">Dashboard</Link>
-                  <Link href="/students" className="hover:text-[#000000] transition-colors">Students</Link>
+                  <Link href="/" className="hover:text-[#7c3aed] transition-colors">Home</Link>
+                  <Link href="/dashboard" className="hover:text-[#7c3aed] transition-colors">Dashboard</Link>
+                  <Link href="/students" className="hover:text-[#7c3aed] transition-colors">Students</Link>
                 </nav>
               </div>
 
