@@ -65,7 +65,7 @@ export default function AddStudent() {
   };
 
   return (
-    <div className="max-w-md mx-auto bg-[#CC0000] p-8 rounded-3xl shadow-xl border border-[#e9d5ff] mt-10 relative animate-fade-in">
+    <div className="max-w-md mx-auto bg-[#FF9999] p-8 rounded-3xl shadow-xl border border-[#e9d5ff] mt-10 relative animate-fade-in">
       <h2 className="text-3xl font-extrabold text-[#000000] mb-8 text-center animate-bounce-in">เพิ่มข้อมูลนักศึกษา</h2>
       
       {error && (
@@ -127,7 +127,7 @@ export default function AddStudent() {
           <button 
             type="button" 
             onClick={() => router.push("/")}
-            className="flex-1 bg-[#CC0000] text-[#5b21b6] font-bold py-4 rounded-2xl hover:bg-[#CC0033] transition-all border border-[#c4b5fd]"
+            className="flex-1 bg-[#CC0000] text-[#000000] font-bold py-4 rounded-2xl hover:bg-[#CC0033] transition-all border border-[#c4b5fd]"
           >
             ยกเลิก
           </button>
