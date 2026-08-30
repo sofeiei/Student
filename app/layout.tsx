@@ -19,16 +19,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProvider>
           {/* Navbar & Header */}
           <header className="sticky top-0 z-50 bg-white from-[#8b5cf6] to-[#7c3aed] text-black shadow-xl">
-            <div className="max-w-5xl mx-auto p-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="max-w-5xl mx-auto p-4 flex flex-col md:flex-row justify-between items-left gap-4">
               <Image
                 src={logo}
                 alt="Logo"
                 className="h-7 w-auto object-contain inline-block"
               />
-
-              <h1 className="text-2xl font-bold tracking-tight">Student Manager</h1>
               <div className="flex items-center gap-4">
-                <nav className="flex gap-4 flex-wrap items-center">
+                <nav className="flex gap-4 flex-wrap items-left">
                   <Link href="/" className="hover:text-[#000000] transition-colors">Home</Link>
                   <Link href="/dashboard" className="hover:text-[#000000] transition-colors">Dashboard</Link>
                   <Link href="/students" className="hover:text-[#000000] transition-colors">Students</Link>
