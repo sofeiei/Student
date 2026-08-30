@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center text-center mt-10 md:mt-20 gap-6 animate-fade-in">
       <h2 className="text-4xl md:text-5xl font-extrabold text-[#5b21b6] leading-tight animate-bounce-in">ระบบจัดการนักศึกษา</h2>
-      <p className="text-[#7c3aed] max-w-lg text-lg animate-slide-up">
+      {/* <p className="text-[#7c3aed] max-w-lg text-lg animate-slide-up">
         รองรับการเพิ่มและดูรายชื่อนักศึกษา
-      </p>
+      </p> */}
       
       <div className="flex flex-col sm:flex-row gap-4 mt-4 animate-slide-up-delayed">
         <Link href="/dashboard">
@@ -33,7 +33,7 @@ export default function Home() {
         </Link>
         <Link href="/add">
           <button className="bg-[#8b5cf6] text-white font-bold py-3 px-6 rounded-2xl hover:bg-[#7c3aed] shadow-lg active:scale-95 transition-all hover:scale-105 transform">
-            เพิ่มนักศึกษาใหม่
+            เพิ่มข้อมูลใหม่
           </button>
         </Link>
       </div>

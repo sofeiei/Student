@@ -18,8 +18,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     if (savedTheme) {
       setTheme(savedTheme);
     } else {
-      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-      setTheme(prefersDark ? "dark" : "light");
+      // ตั้งเป็น light เสมอ ไม่ตรวจจับโหมดของระบบเครื่อง
+      setTheme("light");
     }
   }, []);
 
