@@ -19,12 +19,12 @@ export default function Home() {
       
       <div className="flex flex-col sm:flex-row gap-4 mt-4 animate-slide-up-delayed">
         <Link href="/dashboard">
-          <button className="px-6 py-2.5 bg-[#700d2b] hover:bg-[#590a22] text-white font-semibold rounded-full shadow-sm hover:shadow transition-all duration-200 inline-block text-center">
+          <button className="px-6 py-2.5 bg-[#700d2b] hover:bg-[#590a22] text-white font-semibold rounded-full shadow-sm hover:shadow transition-all duration-200 inline-block text-center ">
             แดช์บอร์ด
           </button>
         </Link>
         <Link href="/students">
-          <button className="px-6 py-2.5 bg-[#700d2b] hover:bg-[#590a22] text-white font-semibold rounded-full shadow-sm hover:shadow transition-all duration-200 inline-block text-center">
+          <button className="px-6 py-2.5 bg-[#700d2b] hover:bg-[#590a22] text-white font-semibold rounded-full shadow-sm hover:shadow transition-all duration-200 inline-block text-center hover:scale-105 transform shadow-sm">
             รายชื่อทั้งหมด
           </button>
         </Link>
