@@ -40,7 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {/* กลุ่มฝั่งขวา: ThemeToggle แยกอยู่ขวาสุด */}
               <div className="flex items-right gap-4">
                 <Link href="/add">
-                  <button className="bg-[#CC0000] text-white font-bold py-2 px-4 rounded-xl shadow-md hover:bg-[#CC0033] transition-all">
+                  <button className="bg-[#CC0000] text-white py-2 px-4 rounded-xl shadow-md hover:bg-[#CC0033] transition-all">
                     เพิ่มข้อมูลใหม่
                   </button>
                 </Link>
