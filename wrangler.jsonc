@@ -9,5 +9,11 @@
   },
   "observability": {
     "enabled": true
-  }
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "student"
+    }
+  ]
 }
